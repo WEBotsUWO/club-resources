@@ -297,34 +297,6 @@
       "discordUsername": "",
       "discordId": "",
       "email": ""
-    },
-    {
-      "id": "lab-safety-process",
-      "name": "",
-      "role": "Safety & Lab Process Coordinator",
-      "teamId": "governance",
-      "level": "L3",
-      "managerId": "vp-operations-people",
-      "hiring": true,
-      "seniorLeadership": false,
-      "description": "Shop safety, build procedures, member access",
-      "discordUsername": "",
-      "discordId": "",
-      "email": ""
-    },
-    {
-      "id": "parts-fabrication",
-      "name": "",
-      "role": "Parts & Fabrication Coordinator",
-      "teamId": "governance",
-      "level": "L3",
-      "managerId": "vp-operations-people",
-      "hiring": true,
-      "seniorLeadership": false,
-      "description": "Part orders, fabrication queue, inventory",
-      "discordUsername": "",
-      "discordId": "",
-      "email": ""
     }
   ]
 }

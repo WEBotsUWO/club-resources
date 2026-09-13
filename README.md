@@ -13,7 +13,7 @@ Shared club resources, with independent WeBots and CHRC organizations.
 
 The WeBots CHRC competition team remains an engineering team within WeBots. CHRC's competition-organizing leadership is the independent CHRC chart.
 
-The initial data leaves personal names and contact fields blank. Two VP Logistics positions are separate assignable cards. Safety & Lab Process and Parts & Fabrication now report to VP Operations & People, following removal of Shared Engineering Operations.
+The initial data leaves personal names and contact fields blank. Two VP Logistics positions are separate assignable cards. Removing Shared Engineering Operations also removes the roles that previously reported to it. The two engineering program branches are retained under their promoted Directors of Engineering.
 
 ## Development
 

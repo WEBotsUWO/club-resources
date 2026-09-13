@@ -85,7 +85,7 @@ test("public charts, contacts, branch controls, search, pan, and zoom", async ({
     beforePan,
   );
   await page.getByLabel("Expand all branches").click();
-  await expect(page.locator(".person-card")).toHaveCount(21);
+  await expect(page.locator(".person-card")).toHaveCount(19);
   await page.getByLabel("Search by name or role").fill("no-such-role-xyz");
   await expect(page.getByText("No matching names or roles.")).toBeVisible();
   await page.getByLabel("Search by name or role").fill("Sample President");

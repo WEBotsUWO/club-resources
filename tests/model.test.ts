@@ -24,12 +24,17 @@ test("revised structures retain valid reporting relationships", () => {
   const chrc = read("chrc");
   validateChart(webots);
   validateChart(chrc);
-  assert.equal(webots.people.length, 21);
+  assert.equal(webots.people.length, 19);
   assert(
     !webots.people.some((person) =>
       /systems integration|strategy.*integration|shared engineering operations|engineering & programs/i.test(
         person.role,
       ),
+    ),
+  );
+  assert(
+    !webots.people.some((person) =>
+      /safety & lab process|parts & fabrication/i.test(person.role),
     ),
   );
   const directors = webots.people.filter((person) =>
