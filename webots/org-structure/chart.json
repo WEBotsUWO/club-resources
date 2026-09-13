@@ -137,7 +137,7 @@
       "teamId": "project-josh",
       "level": "L5",
       "managerId": "webots-president",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": true,
       "description": "Long-term humanoid roadmap, milestones, reviews",
       "discordUsername": "",
