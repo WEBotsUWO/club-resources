@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "governance",
+      "name": "Leadership",
+      "color": "#ffb84d"
+    },
+    {
+      "id": "competition",
+      "name": "Competition",
+      "color": "#39c0ff"
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics",
+      "color": "#a6e35f"
+    },
+    {
+      "id": "media",
+      "name": "Social Media",
+      "color": "#b794f4"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "color": "#f7d154"
+    }
+  ],
+  "people": [
+    {
+      "id": "chrc-president",
+      "role": "CHRC President",
+      "teamId": "governance",
+      "description": "Competition leadership, priorities, and partnerships",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L6",
+      "hiring": false,
+      "seniorLeadership": true
+    },
+    {
+      "id": "vp-comp",
+      "role": "VP Comp",
+      "teamId": "competition",
+      "description": "Competition format, rules, and event delivery",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L5",
+      "managerId": "chrc-president",
+      "hiring": true,
+      "seniorLeadership": true
+    },
+    {
+      "id": "vp-logistics-1",
+      "role": "VP Logistics",
+      "teamId": "logistics",
+      "description": "Venue, equipment, and event operations",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L5",
+      "managerId": "chrc-president",
+      "hiring": true,
+      "seniorLeadership": true
+    },
+    {
+      "id": "vp-logistics-2",
+      "role": "VP Logistics",
+      "teamId": "logistics",
+      "description": "Volunteer coordination and event scheduling",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L5",
+      "managerId": "chrc-president",
+      "hiring": true,
+      "seniorLeadership": true
+    },
+    {
+      "id": "vp-social-media",
+      "role": "VP Social Media",
+      "teamId": "media",
+      "description": "Social channels, content, and announcements",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L5",
+      "managerId": "chrc-president",
+      "hiring": true,
+      "seniorLeadership": true
+    },
+    {
+      "id": "vp-outreach",
+      "role": "VP Outreach",
+      "teamId": "outreach",
+      "description": "University relationships, teams, and partnerships",
+      "name": "",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "level": "L5",
+      "managerId": "chrc-president",
+      "hiring": true,
+      "seniorLeadership": true
+    }
+  ]
+}
