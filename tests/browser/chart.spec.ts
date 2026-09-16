@@ -59,7 +59,7 @@ test("public charts, contacts, branch controls, search, pan, and zoom", async ({
   await expect(
     page.getByRole("heading", { name: "WeBots Organization" }),
   ).toBeVisible();
-  await expect(page.locator(".person-card")).toHaveCount(5);
+  await expect(page.locator(".person-card")).toHaveCount(6);
   await expect(page.getByRole("complementary")).toHaveCount(0);
   await expect(
     page.getByLabel("Discord profile for Sample President"),
@@ -85,7 +85,7 @@ test("public charts, contacts, branch controls, search, pan, and zoom", async ({
     beforePan,
   );
   await page.getByLabel("Expand all branches").click();
-  await expect(page.locator(".person-card")).toHaveCount(19);
+  await expect(page.locator(".person-card")).toHaveCount(11);
   await page.getByLabel("Search by name or role").fill("no-such-role-xyz");
   await expect(page.getByText("No matching names or roles.")).toBeVisible();
   await page.getByLabel("Search by name or role").fill("Sample President");

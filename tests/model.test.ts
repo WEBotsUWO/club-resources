@@ -24,7 +24,7 @@ test("revised structures retain valid reporting relationships", () => {
   const chrc = read("chrc");
   validateChart(webots);
   validateChart(chrc);
-  assert.equal(webots.people.length, 19);
+  assert.equal(webots.people.length, 11);
   assert(
     !webots.people.some((person) =>
       /systems integration|strategy.*integration|shared engineering operations|engineering & programs/i.test(
@@ -37,6 +37,36 @@ test("revised structures retain valid reporting relationships", () => {
       /safety & lab process|parts & fabrication/i.test(person.role),
     ),
   );
+  assert(
+    !webots.people.some((person) =>
+      /operations \/ admin|recruitment & member|business & partnerships|marketing & communications|sponsorship \/ grants|finance \/ purchasing|social media lead|content \/ design|website \/ recruitment/i.test(
+        person.role,
+      ),
+    ),
+  );
+  const executiveRoles = webots.people.filter(
+    (person) => person.managerId === "webots-president",
+  );
+  assert.deepEqual(
+    executiveRoles.map((person) => person.role),
+    [
+      "VP Operations",
+      "VP Sponsorships",
+      "VP Social Media",
+      "Director of Engineering - Project JOSH",
+      "Director of Engineering - CHRC Team",
+    ],
+  );
+  for (const role of ["VP Operations", "VP Sponsorships", "VP Social Media"]) {
+    const executive = webots.people.find((person) => person.role === role);
+    assert(executive);
+    assert.equal(executive.level, "L5");
+    assert.equal(
+      webots.people.filter((person) => person.managerId === executive.id)
+        .length,
+      0,
+    );
+  }
   const directors = webots.people.filter((person) =>
     person.role.startsWith("Director of Engineering"),
   );
@@ -62,7 +92,14 @@ test("revised structures retain valid reporting relationships", () => {
       .slice(1)
       .every((person) => person.managerId === "chrc-president"),
   );
-  assert(webots.people.every((person) => person.name === ""));
+  assert.equal(
+    webots.people.find((person) => person.id === "webots-president")?.name,
+    "Seth Evans",
+  );
+  assert.equal(
+    webots.people.find((person) => person.id === "project-josh-pm")?.name,
+    "Jaylen",
+  );
 });
 
 test("invalid reporting graphs and unsafe contact values are rejected", () => {
