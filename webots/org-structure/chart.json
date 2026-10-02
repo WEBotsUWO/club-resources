@@ -30,6 +30,11 @@
       "id": "webots-chrc-team",
       "name": "WeBots CHRC Team",
       "color": "#ff8a5b"
+    },
+    {
+      "id": "d7dea515-e24d-45f9-b2c8-3a408953afb4",
+      "name": "New department",
+      "color": "#67e8d1"
     }
   ],
   "people": [
@@ -62,12 +67,12 @@
     },
     {
       "id": "vp-external-affairs",
-      "name": "",
+      "name": "Nevin",
       "role": "VP Sponsorships",
       "teamId": "webots-business",
       "level": "L5",
       "managerId": "webots-president",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": true,
       "description": "Sponsor relationships, grants, fundraising, and partner deliverables",
       "discordUsername": "",
@@ -104,12 +109,12 @@
     },
     {
       "id": "webots-chrc-team-pm",
-      "name": "",
+      "name": "Nick & Ryan",
       "role": "Director of Engineering - CHRC Team",
       "teamId": "webots-chrc-team",
       "level": "L5",
       "managerId": "webots-president",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": true,
       "description": "Competition robot scope, build plan, readiness",
       "discordUsername": "",
@@ -118,7 +123,7 @@
     },
     {
       "id": "josh-mechanical",
-      "name": "",
+      "name": "Isabella",
       "role": "Mechanical Lead",
       "teamId": "project-josh",
       "level": "L4",
@@ -132,7 +137,7 @@
     },
     {
       "id": "josh-electrical",
-      "name": "",
+      "name": "Sohan",
       "role": "Electrical Lead",
       "teamId": "project-josh",
       "level": "L4",
@@ -146,8 +151,8 @@
     },
     {
       "id": "josh-software-controls",
-      "name": "",
-      "role": "Software & Controls Lead",
+      "name": "Samuel",
+      "role": "Software Lead",
       "teamId": "project-josh",
       "level": "L4",
       "managerId": "project-josh-pm",
@@ -160,8 +165,8 @@
     },
     {
       "id": "comp-hardware",
-      "name": "",
-      "role": "Competition Hardware Lead",
+      "name": "Sanad",
+      "role": "Mechanical Lead",
       "teamId": "webots-chrc-team",
       "level": "L4",
       "managerId": "webots-chrc-team-pm",
