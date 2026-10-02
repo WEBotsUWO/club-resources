@@ -170,7 +170,7 @@
       "teamId": "webots-chrc-team",
       "level": "L4",
       "managerId": "webots-chrc-team-pm",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": false,
       "description": "Mechanical, electrical, packaging, field reliability",
       "discordUsername": "",
@@ -184,7 +184,7 @@
       "teamId": "webots-chrc-team",
       "level": "L4",
       "managerId": "webots-chrc-team-pm",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": false,
       "description": "Electrical, power, sensors, hardware integration",
       "discordUsername": "",
@@ -202,7 +202,7 @@
       "teamId": "webots-chrc-team",
       "level": "L4",
       "managerId": "webots-chrc-team-pm",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": false
     }
   ]
