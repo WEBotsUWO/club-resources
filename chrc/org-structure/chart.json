@@ -52,7 +52,7 @@
       "email": "",
       "level": "L5",
       "managerId": "chrc-president",
-      "hiring": true,
+      "hiring": false,
       "seniorLeadership": true
     },
     {
