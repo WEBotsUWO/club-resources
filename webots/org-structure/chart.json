@@ -179,17 +179,31 @@
     },
     {
       "id": "comp-software-controls",
-      "name": "",
-      "role": "Competition Software & Controls Lead",
+      "name": "Marcellus",
+      "role": "Electrical Lead",
       "teamId": "webots-chrc-team",
       "level": "L4",
       "managerId": "webots-chrc-team-pm",
       "hiring": true,
       "seniorLeadership": false,
-      "description": "Competition software, controls, perception, tooling",
+      "description": "Electrical, power, sensors, hardware integration",
       "discordUsername": "",
       "discordId": "",
       "email": ""
+    },
+    {
+      "id": "49371dd3-3572-4846-959c-7b6806335613",
+      "name": "Samuel",
+      "role": "Software lead",
+      "description": "Controls, teleoperation, software integration",
+      "discordUsername": "",
+      "discordId": "",
+      "email": "",
+      "teamId": "webots-chrc-team",
+      "level": "L4",
+      "managerId": "webots-chrc-team-pm",
+      "hiring": true,
+      "seniorLeadership": false
     }
   ]
 }
